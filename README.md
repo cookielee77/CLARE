@@ -16,7 +16,8 @@ bash install_requirement.sh
 ```
 
 ## Data Preparation and Pretrained Classifier
-You can download pretrained target classifier and full training data in here (Coming soon).
+You can download pretrained target classifier and full training data in [here](https://yizzhang.blob.core.windows.net/dianqi/clare.zip?sv=2020-04-08&st=2021-07-08T06%3A18%3A06Z&se=2025-07-09T06%3A18%3A00Z&sr=b&sp=r&sig=%2FXgO1QlRRlv7Hwyr5Yc4v060gWV41LQqg0vkSF%2B9raU%3D) (Note that the tartget claissifers are trained more robust than the classifers in TextFooler).
+
 Alternatively, you can prepare you own training set in the same format as the example under `/data/training_data/${dataset}/dataset/`. The format will look like:
 | label | text1 | text2 |
 |---|---|---|
